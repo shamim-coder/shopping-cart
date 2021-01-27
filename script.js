@@ -6,6 +6,7 @@ document.querySelector('.case-minus').setAttribute('disabled', 'disabled')
 // taking price input value
 let iphonePrice = parseFloat(document.getElementById('iphone-price').innerText);
 let casePrice = parseFloat(document.getElementById('case-price').innerText);
+document.getElementById('subTotal').innerText = iphonePrice+casePrice;
 
 // Taking Value to increment decrement input value
 let valueCount = 0;
